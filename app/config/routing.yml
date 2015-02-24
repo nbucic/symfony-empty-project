@@ -1,3 +1,7 @@
+nbucic_json_locations:
+    resource: "@NbucicApiLocationsBundle/Resources/config/routing.yml"
+    prefix:   /
+
 app:
     resource: @AppBundle/Controller/
     type:     annotation
